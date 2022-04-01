@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Couleur*/
+:root{
+    --spidey:#B11313;
+    --peter: #F1C530;
+    --parker: #114C92;
+    --venom: #000000;
+    --electron:#FFFFFF;
+}
+
+/*font-family*/
+@font-face {
+    font-family: 'spiderman';
+    src: url("../font/far_from_homecoming/Far-From\ Homecoming\ Updated.otf");
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url("../Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Extra-bold';
+    src: url("../Montserrat/static/Montserrat-ExtraBold.ttf");    
+}
+/*Navigation*/
+#navigation{
+    background-color: #B11313;
+    position: relative;
+}
+.point{
+    color: #FFFFFF;
+    font-size: 50px;
+    position: absolute;
+    right: 30px;
+    z-index: 10px;
+    display: none;
+}
+
+.menu{
+    color: #FFFFFF;
+    list-style-type: none;
+    margin: 50px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+@media ( max-width: 800px) {
+    .point{
+        display: block;
+    }
+}
+
+/*Toile*/
+.latoile{
+    background-color: #F1C530;   
+}
+.position{
+    display: flex;
+}
+.position img{
+    transform: scaleX(-1.2);
+}
+.dringtoile{
+    margin: 150px;
+}
+.dring{
+    color: #FFFFFF;
+    font-family: Extra-bold;
+    font-weight: bolder;
+}
+#family{
+    font-family: spiderman !important;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.family{
+    padding: 200px;
+}
+@media (max-width: 800px){
+    .position img{
+        width: 250px;
+        height: 250px;
+    }
+    .dringtoile h1{
+        font-size: small;   
+    }
+    .dringtoile p{
+        font-size: small;
+    }
+    .dringtoile{
+        margin-left: 5px;
+    }
+}
+
+/*La petite antenne*/
+#antenne{
+    background-color: #B11313;
+}
+.formulaire{
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+.boutton{
+    display: none;
+}
+
+@media (max-width: 800px){
+    #family{
+        display: block;
+        font-size: 25px;
+        text-align: center;
+    }
+    .container img{
+        width: 300px;
+        margin: 130px;
+        margin-top: 0px;
+        border-radius: 15px;
+    }
+    .boutton{
+        font-size: smaller;
+        display: block;
+        padding: 5px;
+        border-radius: 25px;
+        margin-top: 5px;
+        text-align: center;
+        color: #B11313;
+        margin: 100px ;
+        height: 30px;
+        font-family: Montserrat;
+        width: 50%;
+    }
+    .container .row .btn{
+        display: none;
+    }
+    .container h1{
+       text-align: center;
+    }
+}
+
+/*XMarvel*/
+#xmarvel{
+    background-color: #114C92;
+    padding: 5px;
+}
+#message{
+    height: 100px;
+    border-radius: 10px;
+}
+.message{
+    border: 1px solid #e0d4d4;;
+    color: #e0d4d4;; 
+    width: 200px;
+    height: 95px;
+    border-radius: 10px;
+}
+.sociale{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #114C92;
+    margin: 45px;
+    font-family: Montserrat;
+}
+@media ( max-width: 800px) {
+    .liste{
+        text-align: center;
+    }
+    .container .row h6{
+        display: none;
+    }
+    .container .row button{
+        width: 100px;   
+    }
+    .container .row p{
+        font-size: smaller;
+        text-align: center;
+        margin: 5px;
+    }  
+}
+
+/*Footer*/
+main{
+    background-color: #000000;
+    padding: 5px;
+}
+.mr{
+    margin: 5px;
+}
+#x{
+    height: 50px;
+}
+.liste{
+    color: #e0d4d4;
+    padding: 25px;
+    font-family: Montserrat;
+    font-size: small;
+}
+.btn{
+    display: flex;
+}
+.lgo{
+    padding-top: 5px;
+}
+.logo{
+    background-color: #B11313;
+    border-radius: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.form{
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #B11313;
+    color: #e0d4d4;
+}
+.politique{
+    display: flex;
+}
+.langue{
+    background-color: #B11313;
+    border-radius: 50px;
+    width: 100px;
+}
+
+@media ( max-width: 800px){
+    .container .row .logo{
+        width: 30px;
+        margin: 20px;
+        
+    }
+    
+    .politique ul{
+        display: inline-block;
+    }
+    .politique ul li{
+        display: inline-block;
+    }
+    .container .row{
+        margin-right: 50px;
+    }
+    .politique .mr{
+        height: 30px;
+    }
+    #blg{
+        display: none;
+    }
+
+}
