@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Couleur*/
+:root{
+    --spidey:#B11313;
+    --peter: #F1C530;
+    --parker: #114C92;
+    --venom: #000000;
+    --electron:#FFFFFF;
+}
+
+/*font-family*/
+@font-face {
+    font-family: 'spiderman';
+    src: url("../font/far_from_homecoming/Far-From\ Homecoming\ Updated.otf");
+}
+
+/*Navigation*/
+#navigation{
+    background-color: #F1C530;
+    position: relative;
+}
+.point{
+    color: #FFFFFF;
+    font-size: 50px;
+    position: absolute;
+    right: 30px;
+    z-index: 10px;
+    display: none;
+}
+
+.menu{
+    color: #FFFFFF;
+    list-style-type: none;
+    margin: 50px;
+    text-decoration: none;
+}
+
+@media ( max-width: 800px) {
+    .point{
+        display: block;
+    }
+}
+
+/*Super vilains*/
+main{
+    background-image: url(/Assets/Illustration/img7.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+.super{
+    
+}
+.liste{
+    color: #FFFFFF;
+}
+#family{
+    font-family: spiderman !important;
+}
+@media (width-max: 800px){
+    
+}
+
+/*Rivales*/
+.rivale{
+    background-color: #F1C530;
+}
+.adve{
+    border: 6px solid #000000;
+    border-top: none;
+    width: 323px;
+    margin: 0;
+    padding: 2% 0;
+    margin-top: -17%;
+    position: relative;
+}
+.adverse{
+    border: 6px solid #000000;
+    border-top: none;
+    width: 323px;
+    margin: 0;
+    padding: 2% 0;
+    margin-top: -11.5%;
+    position: relative;
+}
+.adverser{
+    border: 6px solid #000000;
+    border-top: none;
+    width: 323px;
+    margin: 0;
+    padding: 2% 0;
+    margin-top: -17%;
+    position: relative;
+}
+@media (width-max: 800px){
+    .adve{
+        margin: 55px;
+    }
+}
+/*Footer*/
+section{
+    background-color: #000000;
+    padding: 5px;
+}
+.mr{
+    margin: 5px;
+}
+#x{
+    height: 50px;
+}
+.liste{
+    color: #e0d4d4;
+    padding: 25px;
+}
+.btn{
+    display: flex;
+}
+.lgo{
+    padding-top: 5px;
+}
+.logo{
+    background-color: #F1C530;
+    border-radius: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.form{
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #B11313;
+    color: #e0d4d4;
+}
+.politique{
+    display: flex;
+}
+.langue{
+    background-color: #F1C530;
+    border-radius: 50px;
+    width: 100px;
+}
+@media ( max-width: 800px){
+    .container .row .logo{
+        width: 30px;
+        margin: 20px;
+        
+    }
+    
+    .politique ul{
+        display: inline-block;
+    }
+    .politique ul li{
+        display: inline-block;
+    }
+    .container .row{
+        margin-right: 50px;
+    }
+    .politique .mr{
+        height: 30px;
+    }
+    #blg{
+        display: none;
+    }
+
+}
