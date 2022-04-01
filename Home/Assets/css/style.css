@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Couleur*/
+:root{
+    --spidey:#B11313;
+    --peter: #F1C530;
+    --parker: #114C92;
+    --venom: #000000;
+    --electron:#FFFFFF;
+}
+
+/*font-family*/
+@font-face {
+    font-family: 'spiderman';
+    src: url("../font/far_from_homecoming/Far-From\ Homecoming\ Updated.otf");
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url("../Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Extra-bold';
+    src: url("../Montserrat/static/Montserrat-ExtraBold.ttf");    
+}
+/*Navigation*/
+#navigation{
+    background-color: #B11313;
+    position: relative;
+}
+.point{
+    color: #FFFFFF;
+    font-size: 50px;
+    position: absolute;
+    right: 30px;
+    z-index: 10px;
+    display: none;
+}
+
+.menu{
+    color: #FFFFFF;
+    list-style-type: none;
+    margin: 50px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+@media ( max-width: 800px) {
+    .point{
+        display: block;
+    }
+}
+
+/*Spider-Man*/
+.spiderman{
+    background-image: url(/Assets/Illustration/img1.png);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    position: relative;
+}
+.spidey{
+    font-family: Spiderman;
+    color: #FFFFFF;
+    padding-top: 20%;
+    margin-left: 10%;
+    font-size: 500%;
+}
+.boutn{
+    font-family: Extra-bold;
+    background-color: white;
+    color: #B11313;
+    width: 150%;
+    border: 1px solid white;
+    height: 150%;
+    font-size: x-small;
+    border-radius: 25px;
+    border: #FFFFFF;
+    margin-left: 150%;  
+}
+.bouton{
+    font-family: Extra-bold;
+    color: white;
+    width: 150%;
+    border: 1px solid white;
+    height: 150%;
+    font-size: x-small;
+    border-radius: 25px;
+    margin-left: 160%; 
+    background-color: #B11313; 
+}
+.sympa{
+    color: #FFFFFF;
+    font-family: Extra-bold;
+    margin-left: 10%;
+}
+.cinema{
+    color: #FFFFFF;
+    font-family: Spiderman;
+    margin-left: 10%;
+}
+.reboot{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    margin-left: 10%;
+}
+.cin{
+    margin-top: 10%;
+}
+.quartier{
+    background-color: #B11313;
+}
+.trois{
+    width: ;
+}
+#im{
+    margin-left: 20%;
+}
+.botn{
+    font-family: Extra-bold;
+    background-color: white;
+    color: #B11313;
+    border: 1px solid white;
+    height: 150%;
+    font-size: x-small;
+    border-radius: 15px;
+    border: #FFFFFF;
+    padding: 4%;
+    margin-left: 35%; 
+}
+.caption{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: small;
+    margin-left: 20%;
+}
+.capt{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: small;
+    margin-left: 13%;
+}
+.capti{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: small;
+    margin-left: 5%;
+}
+
+/*Deviens spiderman*/
+.deviens{
+    background-color: #114C92;
+}
+.devie{
+    color: #FFFFFF;
+    font-family: Spiderman;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+.dev{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: small;
+    
+}
+.formulaire{
+    margin-left: 8%;
+}
+
+/*Inscrire a Newletters*/
+.newletter{
+    background-color: #B11313;
+}
+.inscrit{
+    color: #FFFFFF;
+    font-family: Spiderman;
+    margin-top: 10%;
+}
+.univers{
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+.form{
+    margin-left: 8%;
+}
+.form-check{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    padding-top: 5%;
+}
+
+/*Footer*/
+main{
+    background-color: #000000;
+    padding: 5px;
+}
+.mr{
+    margin: 5px;
+}
+#x{
+    height: 50px;
+}
+.liste{
+    color: #e0d4d4;
+    padding: 25px;
+    font-family: Montserrat;
+    font-size: small;
+}
+.btn{
+    display: flex;
+}
+.lgo{
+    padding-top: 5px;
+}
+.logo{
+    background-color: #B11313;
+    border-radius: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.form{
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #B11313;
+    color: #e0d4d4;
+}
+.politique{
+    display: flex;
+}
+.langue{
+    background-color: #B11313;
+    border-radius: 50px;
+    width: 100px;
+}
+
+@media ( max-width: 800px){
+    .container .row .logo{
+        width: 30px;
+        margin: 20px;
+        
+    }
+    
+    .politique ul{
+        display: inline-block;
+    }
+    .politique ul li{
+        display: inline-block;
+    }
+    .container .row{
+        margin-right: 50px;
+    }
+    .politique .mr{
+        height: 30px;
+    }
+    #blg{
+        display: none;
+    }
+
+}
